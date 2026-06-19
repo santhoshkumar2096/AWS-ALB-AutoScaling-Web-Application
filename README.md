@@ -192,3 +192,5 @@ http://<ALB-DNS>
 Successfully received website response.
 
 Traffic was distributed across multiple EC2 instances.
+
+Designed and deployed a highly available AWS web application using Application Load Balancer

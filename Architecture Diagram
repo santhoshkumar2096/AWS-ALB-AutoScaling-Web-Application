@@ -1,0 +1,22 @@
+             Internet Users
+                   |
+                   |
+          Application Load Balancer
+              (Public Subnets)
+                   |
+                   |
+            Target Group
+                   |
+      -------------------------
+      |                       |
+      |                       |
+   EC2-1                  EC2-2
+ap-south-1a            ap-south-1b
+      |                       |
+      -------------------------
+                   |
+                   |
+          Auto Scaling Group
+                   |
+                   |
+          Launch Template
